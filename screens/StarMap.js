@@ -50,18 +50,18 @@ export default class StarMapScreen extends Component {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
+    // container: {
+    //     flex: 1,
+    //     justifyContent: 'center',
+    //     alignItems: 'center'
+    // },
     droidSafeArea: {
         marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
     },
-    backgroundImage: {
-        flex: 1,
-        resizeMode: 'cover',
-    },
+    // backgroundImage: {
+    //     flex: 1,
+    //     resizeMode: 'cover',
+    // },
     titleText: {
         fontSize: 35,
         fontWeight: "bold",
